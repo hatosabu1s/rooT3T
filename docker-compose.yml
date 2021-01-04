@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  node:
+    build: /
+    environment:
+      CHOKIDAR_USEPOLLING: "true"
+    volumes:
+      - ./:/root3t
+    command: sh -c "cd root3t && yarn install && yarn start"
+    ports:
+      - "3000:3000"
+    stdin_open: true
