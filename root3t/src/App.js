@@ -1,15 +1,13 @@
 import React from "react";
 import "./App.css";
 
-import { IconButtonList } from "./character/iconButton";
+import Register from "./component/register/register";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div className="App-body">
-          <IconButtonList />
-        </div>
+        <Register />
       </header>
     </div>
   );
