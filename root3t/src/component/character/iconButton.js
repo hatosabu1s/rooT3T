@@ -48,11 +48,11 @@ export const IconButtonList = ({ index, selectedIndex, setSelectedIndex }) => {
             classes={{ root: classes.root, text: classes.text }}
             onClick={() => onClickIcon(i)}
           >
-            {selectedIndex && selectedIndex.includes(i) && (
+            {selectedIndex && selectedIndex.includes(i) &&
               <CheckCircleIcon
                 classes={{ root: classes.checked }}
               />
-            )}
+            }
             <Avatar
               variant="rounded"
               src={`${process.env.PUBLIC_URL}/icon/${c}.png`}
