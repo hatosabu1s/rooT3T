@@ -136,8 +136,8 @@ export const NormalIndex = [
   "レイ",
   "レイ(ニューイヤー)",
   "レイ(ハロウィン)",
-  "レム",
-]
+  "レム"
+];
 
 
 export const FormationIndex = [
@@ -278,5 +278,5 @@ export const FormationIndex = [
   "ユニ",
   "キョウカ",
   "ミサキ(ハロウィン)",
-  "キョウカ(ハロウィン)",
-]
+  "キョウカ(ハロウィン)"
+];

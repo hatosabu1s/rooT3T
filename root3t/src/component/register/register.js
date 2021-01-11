@@ -11,7 +11,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: "#393c40",
     maxWidth: "500px",
     maxHeight: "500px",
-    overflowY: "scroll",
+    overflowY: "scroll"
   },
   selected: {
     backgroundColor: "#393c40",
@@ -19,13 +19,13 @@ const useStyles = makeStyles((theme) => ({
     height: "80px",
     padding: "5px 5px",
     margin: "20px 0px 10px 0px",
-    borderRadius: "10px",
+    borderRadius: "10px"
   },
   buttons: {
     "& > *": {
-      margin: theme.spacing(1),
-    },
-  },
+      margin: theme.spacing(1)
+    }
+  }
 }));
 
 // 登録ページ
@@ -41,7 +41,7 @@ const Register = () => {
     <>
       <Card
         classes={{
-          root: classes.root,
+          root: classes.root
         }}
       >
         <IconButtonList
@@ -52,9 +52,9 @@ const Register = () => {
       </Card>
       <Box
         display="flex"
-        alignItems="left"
+        flexDirection="row-reverse"
         classes={{
-          root: classes.selected,
+          root: classes.selected
         }}
       >
         <SelectedList
@@ -68,6 +68,6 @@ const Register = () => {
       </div>
     </>
   );
-}
+};
 
 export default Register;
