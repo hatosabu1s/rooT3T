@@ -5,6 +5,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import { NormalIndex, FormationIndex } from "../../constants";
 
 import { IconButtonList, SelectedList } from "../character/iconButton";
+import { logEnter, logExit } from "../../logger";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -34,7 +35,11 @@ const Register = () => {
   const [selectedIndex, setSelectedIndex] = useState([]);
 
   const onReset = () => {
+    logEnter("onReset");
+
     setSelectedIndex([]);
+
+    logExit("onReset");
   };
 
   return (
