@@ -1,4 +1,4 @@
-export const NomalIndex = [
+export const NormalIndex = [
   "アオイ",
   "アオイ（編入生）",
   "アカリ",
