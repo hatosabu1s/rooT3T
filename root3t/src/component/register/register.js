@@ -26,7 +26,11 @@ const Register = () => {
           root: classes.root,
         }}
       >
-        <IconButtonList index={NormalIndex} selectedIndex={selectedIndex} setSelectedIndex={setSelectedIndex} />
+        <IconButtonList 
+          index={NormalIndex} 
+          selectedIndex={selectedIndex} 
+          setSelectedIndex={setSelectedIndex} 
+        />
       </Card>
     </>
   );
